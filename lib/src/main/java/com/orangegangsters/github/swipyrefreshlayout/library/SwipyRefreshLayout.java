@@ -60,8 +60,8 @@ public class SwipyRefreshLayout extends ViewGroup {
 
     public static final String TAG = "SwipyRefreshLayout";
 
-    private static final float MAX_SWIPE_DISTANCE_FACTOR = .6f;
-    private static final int REFRESH_TRIGGER_DISTANCE = 120;
+    private static final float MAX_SWIPE_DISTANCE_FACTOR = .05f;
+    private static final int REFRESH_TRIGGER_DISTANCE = 60;
 
     // Maps to ProgressBar.Large style
     public static final int LARGE = MaterialProgressDrawable.LARGE;
